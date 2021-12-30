@@ -12,4 +12,6 @@ rules:
     - error
     - ignorePackages
     - js: always
-
+  linebreak-style: 0
+  quotes: 0
+  import/prefer-default-export: 0
