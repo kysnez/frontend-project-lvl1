@@ -15,3 +15,5 @@ rules:
   linebreak-style: 0
   quotes: 0
   import/prefer-default-export: 0
+  eol-last: 0
+  indent: 4
