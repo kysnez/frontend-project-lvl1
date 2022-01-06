@@ -1,6 +1,6 @@
 #!/usr/bin/env/ node
-import { getUserName } from "../src/cli.js";
+export { getUserName } from "../src/cli.js";
 
 console.log("Welcom to the Brain Games!");
 
-getUserName();
+export const nameUser = getUserName();
