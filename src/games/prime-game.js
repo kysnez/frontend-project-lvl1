@@ -1,6 +1,6 @@
 import { getRandomNumber } from "../random-numbers.js";
 import { primeCheck } from "../primeCheck.js";
-import driveToGame from "../drive.js";
+import driveToGame from "../index.js";
 
 const gameRules =
   'Answer "yes" if given number is prime. Otherwise answer "no".';

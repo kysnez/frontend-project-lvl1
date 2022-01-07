@@ -1,5 +1,5 @@
 import { getRandomNumber } from "../random-numbers.js";
-import driveToGame from "../drive.js";
+import driveToGame from "../index.js";
 import { getGreatestDivisor } from "../getGreatestDivisor.js";
 
 const gameRules = "Find the greatest common divisor of given numbers.";

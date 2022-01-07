@@ -25,11 +25,10 @@ const driveToGame = (gameRules, gameCheck) => {
           "."
       );
       console.log("Let's try again, " + nameUser + "!");
-      break;
-    } else {
-      console.log("Correct!");
-      winRounds += 1;
+      return;
     }
+    console.log("Correct!");
+    winRounds += 1;
   }
 
   if (winRounds === 3) {

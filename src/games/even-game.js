@@ -1,5 +1,5 @@
 import { getRandomNumber } from "../random-numbers.js";
-import driveToGame from "../drive.js";
+import driveToGame from "../index.js";
 
 const isEven = (number) => number % 2 === 0;
 

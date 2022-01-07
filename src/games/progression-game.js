@@ -1,4 +1,4 @@
-import driveToGame from "../drive.js";
+import driveToGame from "../index.js";
 import { getNumProgress } from "../getNumProgress.js";
 
 const gameRules = "What number is missing in the progression?";
