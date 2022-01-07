@@ -27,3 +27,6 @@ The following repository contains few simple programs that were build to check m
  
 ### brain-prime game:
 [![asciicast](https://asciinema.org/a/5baDnJNDJf85SvnTO3j6Vk2Ko.svg)](https://asciinema.org/a/5baDnJNDJf85SvnTO3j6Vk2Ko)
+
+### brain-progression game:
+[![asciicast](https://asciinema.org/a/USoMxk99hhm3GpyQJB0VoNYq3.svg)](https://asciinema.org/a/USoMxk99hhm3GpyQJB0VoNYq3)
