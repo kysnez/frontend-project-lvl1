@@ -6,7 +6,7 @@
 [![Node.js CI](https://github.com/kysnez/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/kysnez/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
 ### Description: 
-The following repository contains few simple programs that were build to check my first coding skills.
+The following repository contains few simple programs that were build to check my first coding skills
 
 ### Setup:
 1. Check the current updates for database with available packages: enter command line apt update.
