@@ -14,7 +14,7 @@ const driveToGame = (gameRules, gameCheck) => {
 
   for (let i = 0; i < rounds; i += 1) {
     const [getQuestion, correctAnswer] = gameCheck();
-    console.log("Question:" + getQuestion);
+    console.log("Question: " + getQuestion);
     const userAnswer = readlineSync.question("Your answer: ");
 
     if (userAnswer !== correctAnswer) {
