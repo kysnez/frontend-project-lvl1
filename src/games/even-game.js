@@ -5,7 +5,7 @@ const isEven = (number) => number % 2 === 0;
 
 export const gameCheck = () => {
   const number = getRandomNumber(1, 100);
-  const question = `${number}`;
+  const question = number;
   const correctAnswer = isEven(number) ? "yes" : "no";
   return [question, correctAnswer];
 };
