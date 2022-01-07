@@ -33,7 +33,7 @@ const driveToGame = (gameRules, gameCheck) => {
   }
 
   if (winRounds === 3) {
-    console.log("Congratulations," + nameUser + "!");
+    console.log("Congratulations, " + nameUser + "!");
   }
 };
 
