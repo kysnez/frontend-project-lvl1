@@ -9,7 +9,7 @@
 The following repository contains few simple programs that were build to check my first coding skills
 
 ### Setup:
-1. Check the current updates for database with available packages: enter command line apt update.
+1. Check the current updates for database with available packages: enter command line apt update
 2. Upgrade Node.js to the latest version: enter command line apt upgrade nodejs
 3. To allow you to install modules and packages with Node.js, install npm package: enter command line apt install npm
 4. Clone this repository by SSH key: git@github.com:kysnez/frontend-project-lvl1.git
