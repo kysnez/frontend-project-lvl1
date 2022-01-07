@@ -4,7 +4,8 @@ export const getGreatestDivisor = (first, second) => {
   let secondIndex = 0;
 
   if (first === second) {
-    return (result = String(first));
+    result = String(first);
+    return result;
   }
 
   const firstDivisors = [];

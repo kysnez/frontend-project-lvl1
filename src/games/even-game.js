@@ -1,4 +1,3 @@
-import readlineSync, { question } from "readline-sync";
 import { getRandomNumber } from "../random-numbers.js";
 import driveToGame from "../drive.js";
 

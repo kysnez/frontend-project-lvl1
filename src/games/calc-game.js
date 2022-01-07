@@ -28,5 +28,3 @@ const gameCheck = () => {
 };
 
 export const calcGame = () => driveToGame(gameRules, gameCheck);
-
-export default calcGame;
