@@ -1,4 +1,4 @@
-export const primeCheck = (number) => {
+const primeCheck = (number) => {
   let result = '';
   const divisors = [];
 
@@ -17,3 +17,5 @@ export const primeCheck = (number) => {
 
   return result;
 };
+
+export default primeCheck;
