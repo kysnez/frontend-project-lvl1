@@ -9,19 +9,19 @@ const gameCheck = () => {
   const numberTwo = getRandomNumber(1, 10);
 
   if (mathSign === 1) {
-    const getQuestion = String(${numberOne} + ' + ' + ${numberTwo});
+    const getQuestion = String(`${numberOne} + ${numberTwo}`);
     const correctAnswer = String(numberOne + numberTwo);
     return [getQuestion, correctAnswer];
   }
 
   if (mathSign === 2) {
-    const getQuestion = String(numberOne + ' - ' + numberTwo);
+    const getQuestion = String(`${numberOne} - ${numberTwo}`);
     const correctAnswer = String(numberOne - numberTwo);
     return [getQuestion, correctAnswer];
   }
 
   if (mathSign === 3) {
-    const getQuestion = String(numberOne + ' * ' + numberTwo);
+    const getQuestion = String(`${numberOne} * ${numberTwo}`);
     const correctAnswer = String(numberOne * numberTwo);
     return [getQuestion, correctAnswer];
   }
