@@ -10,25 +10,6 @@ const gameCheck = () => {
   let getQuestion = '';
   let correctAnswer = '';
 
-  /*  if (mathSign === 1) {
-    const getQuestion = String(`${numberOne} + ${numberTwo}`);
-    const correctAnswer = String(numberOne + numberTwo);
-    return [getQuestion, correctAnswer];
-  }
-
-  if (mathSign === 2) {
-    const getQuestion = String(`${numberOne} - ${numberTwo}`);
-    const correctAnswer = String(numberOne - numberTwo);
-    return [getQuestion, correctAnswer];
-  }
-
-  if (mathSign === 3) {
-    const getQuestion = String(`${numberOne} * ${numberTwo}`);
-    const correctAnswer = String(numberOne * numberTwo);
-    return [getQuestion, correctAnswer];
-  }
-};  */
-
   switch (mathSign) {
     case 1:
       getQuestion = String(`${numberOne} + ${numberTwo}`);
