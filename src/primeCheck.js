@@ -1,9 +1,9 @@
 export const primeCheck = (number) => {
-  let result = "";
+  let result = '';
   const divisors = [];
 
   if (number === 1) {
-    result = "no";
+    result = 'no';
     return result;
   }
 
@@ -13,7 +13,7 @@ export const primeCheck = (number) => {
     }
   }
 
-  result = divisors.length === 2 ? "yes" : "no";
+  result = divisors.length === 2 ? 'yes' : 'no';
 
   return result;
 };

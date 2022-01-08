@@ -1,4 +1,4 @@
-import { getRandomNumber } from "./random-numbers.js";
+import { getRandomNumber } from './random-numbers.js';
 
 export const getNumProgress = () => {
   const firstNum = getRandomNumber(1, 10);
@@ -14,7 +14,7 @@ export const getNumProgress = () => {
 
   for (let i = 2; i <= lineLength; i += 1) {
     if (i === changeNum) {
-      numLine.push("..");
+      numLine.push('..');
       addNum += step;
       correctAnswer = String(addNum);
     }
@@ -22,7 +22,7 @@ export const getNumProgress = () => {
     numLine.push(addNum);
   }
 
-  const separator = " ";
+  const separator = ' ';
 
   const getQuestion = numLine.join(separator);
 
