@@ -1,6 +1,6 @@
-import { getRandomNumber } from './random-numbers.js';
+import getRandomNumber from './random-numbers.js';
 
-export const getNumProgress = () => {
+const getNumProgress = () => {
   const firstNum = getRandomNumber(1, 10);
   const step = getRandomNumber(1, 10);
   const changeNum = getRandomNumber(2, 10);
@@ -28,3 +28,5 @@ export const getNumProgress = () => {
 
   return [getQuestion, correctAnswer];
 };
+
+export default getNumProgress;

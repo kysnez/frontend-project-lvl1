@@ -1,4 +1,4 @@
-export const getGreatestDivisor = (first, second) => {
+const getGreatestDivisor = (first, second) => {
   let result = 0;
   let firstIndex = 0;
   let secondIndex = 0;
@@ -24,10 +24,7 @@ export const getGreatestDivisor = (first, second) => {
     }
   }
 
-  const biggestLength =
-    firstDivisors.length > secondDivisors.length
-      ? firstDivisors.length
-      : secondDivisors.length;
+  const biggestLength = (firstDivisors.length > secondDivisors.length) ? firstDivisors.length : secondDivisors.length;
 
   for (let i = 0; i <= biggestLength; i += 1) {
     if (firstDivisors[firstIndex] === secondDivisors[secondIndex]) {
@@ -42,3 +39,5 @@ export const getGreatestDivisor = (first, second) => {
   }
   return commonDivisors[commonDivisors.length - 1];
 };
+
+export default getGreatestDivisor;

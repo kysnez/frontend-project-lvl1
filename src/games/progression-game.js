@@ -1,5 +1,5 @@
 import driveToGame from '../index.js';
-import { getNumProgress } from '../getNumProgress.js';
+import getNumProgress from '../getNumProgress.js';
 
 const gameRules = 'What number is missing in the progression?';
 
@@ -8,4 +8,6 @@ const gameCheck = () => {
   return [getQuestion, correctAnswer];
 };
 
-export const gameProgress = () => driveToGame(gameRules, gameCheck);
+const gameProgress = () => driveToGame(gameRules, gameCheck);
+
+export default gameProgress;
