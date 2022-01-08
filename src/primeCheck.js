@@ -3,7 +3,7 @@ export const primeCheck = (number) => {
   const divisors = [];
 
   if (number === 1) {
-    result = "yes";
+    result = "no";
     return result;
   }
 
