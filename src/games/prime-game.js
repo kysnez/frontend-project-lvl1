@@ -3,7 +3,7 @@ import { primeCheck } from "../primeCheck.js";
 import driveToGame from "../index.js";
 
 const gameRules =
-  'Answer "yes" if given number is prime. Otherwise answer "no".';
+  "Answer 'yes' if given number is prime. Otherwise answer 'no'.";
 
 export const gameCheck = () => {
   const getQuestion = getRandomNumber(1, 10);
