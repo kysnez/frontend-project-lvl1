@@ -13,7 +13,6 @@ rules:
     - ignorePackages
     - js: always
   import/prefer-default-export: 0
-  eol-last: 0
   operator-linebreak: 0
   comma-dangle: 0
   max-len: ["error", { "code": 140, "tabWidth": 2}]
