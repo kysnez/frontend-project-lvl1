@@ -14,8 +14,4 @@ rules:
     - js: always
   import/prefer-default-export: 0
   eol-last: 0
-  indent: 1
-  prefer-template: 0
   operator-linebreak: 0
-  comma-dangle: 0
-  consistent-return: 0

@@ -8,23 +8,20 @@ const driveToGame = (gameRules, gameCheck) => {
 
   const nameUser = readlineSync.question('May I have your name?');
 
-  console.log('Hello, ' + nameUser + '!');
+  console.log(`Hello, ${nameUser} !`);
 
   console.log(gameRules);
 
   for (let i = 0; i < rounds; i += 1) {
     const [getQuestion, correctAnswer] = gameCheck();
-    console.log('Question: ' + getQuestion);
+    console.log(`Question: ${getQuestion}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer !== correctAnswer) {
       console.log(
-        userAnswer +
-          ' is wrong answer ;(. Correct answer was ' +
-          correctAnswer +
-          '.'
+        `${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`
       );
-      console.log("Let's try again, " + nameUser + '!');
+      console.log(`Let's try again, ${nameUser}!`);
       return;
     }
     console.log('Correct!');
@@ -32,7 +29,7 @@ const driveToGame = (gameRules, gameCheck) => {
   }
 
   if (winRounds === 3) {
-    console.log('Congratulations, ' + nameUser + '!');
+    console.log(`Congratulations, ${nameUser}!`);
   }
 };
 

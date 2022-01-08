@@ -9,7 +9,7 @@ const gameCheck = () => {
   const numberTwo = getRandomNumber(1, 10);
 
   if (mathSign === 1) {
-    const getQuestion = String(numberOne + ' + ' + numberTwo);
+    const getQuestion = String(${numberOne} + ' + ' + ${numberTwo});
     const correctAnswer = String(numberOne + numberTwo);
     return [getQuestion, correctAnswer];
   }
