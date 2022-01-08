@@ -24,7 +24,13 @@ const getGreatestDivisor = (first, second) => {
     }
   }
 
-  const biggestLength = (firstDivisors.length > secondDivisors.length) ? firstDivisors.length : secondDivisors.length;
+  let biggestLength = 0;
+
+  if (firstDivisors.length > secondDivisors.length) {
+    biggestLength = firstDivisors.length;
+  } else {
+    biggestLength = secondDivisors.length;
+  }
 
   for (let i = 0; i <= biggestLength; i += 1) {
     if (firstDivisors[firstIndex] === secondDivisors[secondIndex]) {
