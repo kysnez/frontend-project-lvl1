@@ -23,7 +23,8 @@ const getGreatestDivisor = (first, second) => {
       secondDivisors.push(n);
     }
   }
-
+  // console.log(firstDivisors);
+  // console.log(secondDivisors);
   let biggestLength = 0;
 
   if (firstDivisors.length > secondDivisors.length) {
@@ -43,7 +44,14 @@ const getGreatestDivisor = (first, second) => {
       firstIndex += 1;
     }
   }
-  return commonDivisors[commonDivisors.length - 1];
+  // console.log(commonDivisors);
+  if (commonDivisors[commonDivisors.length - 1] !== undefined) {
+    result = commonDivisors[commonDivisors.length - 1];
+  } else {
+    result = commonDivisors[commonDivisors.length - 2];
+  }
+
+  return result;
 };
 
 export default getGreatestDivisor;
